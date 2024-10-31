@@ -1,9 +1,22 @@
-import styles from './Cabecalho.module.css'
+import React from 'react';
+import styled from 'styled-components';
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
+const HeaderContainer = styled.header`
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+  color: white; 
+`;
 
-export default Cabecalho
+const Title = styled.h1`
+  font-size: 2em;
+  margin: 0;
+`;
+
+const Cabecalho: React.FC = () => (
+  <HeaderContainer>
+    <Title>EBAC Jobs</Title>
+  </HeaderContainer>
+);
+
+export default Cabecalho;
