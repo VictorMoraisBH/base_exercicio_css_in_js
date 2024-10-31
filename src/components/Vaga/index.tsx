@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const VagaContainer = styled.li`
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   padding: 15px;
   margin: 10px 0;
   border-radius: 5px;
@@ -11,26 +11,26 @@ const VagaContainer = styled.li`
 
 const VagaTitle = styled.h3`
   font-size: 1.5em;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 `;
 
 const VagaDetails = styled.ul`
-  list-style-type: none; 
-  padding: 0; 
-  margin: 10px 0; 
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
 `;
 
 const VagaLink = styled.a`
   display: inline-block;
   margin-top: 10px;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   background-color: #007bff;
-  color: white; 
+  color: white;
   text-decoration: none;
   border-radius: 4px;
 
   &:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
   }
 `;
 

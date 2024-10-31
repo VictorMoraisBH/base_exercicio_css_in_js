@@ -15,7 +15,7 @@ const Container = styled.div`
 
 const HeroTitle = styled.h2`
   font-size: 2em;
-  color: #333; 
+  color: #333;
 `;
 
 const Hero: React.FC = () => (

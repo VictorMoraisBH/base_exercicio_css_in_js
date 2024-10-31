@@ -5,7 +5,7 @@ const HeaderContainer = styled.header`
   background-color: #282c34;
   padding: 20px;
   text-align: center;
-  color: white; 
+  color: white;
 `;
 
 const Title = styled.h1`
